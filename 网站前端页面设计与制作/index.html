@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页 - 健康生活网</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">首页</a>
+        <a href="register.html">注册</a>
+        <a href="login.html">登录</a>
+        <a href="test.html">测试</a>
+        <a href="eat.html">健康饮食</a>
+        <a href="#">运动健身</a>
+        <a href="#">心理健康</a>
+        <a href="#">健康资讯</a>
+        <a href="#">关于我们</a>
+    </div>
+    <div class="header">
+        <h1>欢迎来到我的健康生活网</h1>
+    </div>
+    <div class="content">
+        <h2>每日健康小贴士</h2>
+        <p>保持充足的睡眠，让身体得到充分的休息。</p>
+        <h2>热门食谱推荐</h2>
+        <a href="food1.html">素食沙拉</a> |
+        <a href="food2.html">烤鸡胸肉</a> |
+        <a href="food3.html">全麦面包</a>
+        <h2>健康测试活动</h2>
+        <p>参与我们的健康测试，赢取精美礼品！</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 健康生活网</p>
+    </div>
+    <script>
+        // 页脚点击显示/隐藏
+        document.querySelector('.footer').addEventListener('click', function () {
+            this.style.display = this.style.display === 'none' ? 'block' : 'none';
+        });
+    </script>
+</body>
+
+</html>
